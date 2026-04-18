@@ -6,9 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          FullStack Engineer with 2+ years of experience building production
+          systems across CRM platforms, aviation tech, and e-commerce. Currently
+          at ST Engineering and Stitch, while co-founding BASO — a trust-based
+          motorcycle rescue platform in Vietnam.
         </p>
       </div>
     </div>

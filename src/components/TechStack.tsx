@@ -21,6 +21,20 @@ const imageUrls = [
   "/images/mysql.webp",
   "/images/typescript.webp",
   "/images/javascript.webp",
+  "/images/go.png",
+  "/images/React Native.png",
+  "/images/Tailwind CSS.webp",
+  "/images/Redux.webp",
+  "/images/React Query.webp",
+  "/images/Framer Motion.webp",
+  "/images/GraphQL.webp",
+  "/images/PostgreSQL.png",
+  "/images/Prisma.png",
+  "/images/Docker.webp",
+  "/images/Firebase.png",
+  "/images/Stripe.png",
+  "/images/Tauri.png",
+  "/images/Figma.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
