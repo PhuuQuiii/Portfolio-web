@@ -11,30 +11,31 @@ import {
   RapierRigidBody,
 } from "@react-three/rapier";
 
+const base = import.meta.env.BASE_URL;
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
-  "/images/go.png",
-  "/images/React Native.png",
-  "/images/Tailwind CSS.webp",
-  "/images/Redux.webp",
-  "/images/React Query.webp",
-  "/images/Framer Motion.webp",
-  "/images/GraphQL.webp",
-  "/images/PostgreSQL.png",
-  "/images/Prisma.png",
-  "/images/Docker.webp",
-  "/images/Firebase.png",
-  "/images/Stripe.png",
-  "/images/Tauri.png",
-  "/images/Figma.png",
+  `${base}images/react2.webp`,
+  `${base}images/next2.webp`,
+  `${base}images/node2.webp`,
+  `${base}images/express.webp`,
+  `${base}images/mongo.webp`,
+  `${base}images/mysql.webp`,
+  `${base}images/typescript.webp`,
+  `${base}images/javascript.webp`,
+  `${base}images/go.png`,
+  `${base}images/React Native.png`,
+  `${base}images/Tailwind CSS.webp`,
+  `${base}images/Redux.webp`,
+  `${base}images/React Query.webp`,
+  `${base}images/Framer Motion.webp`,
+  `${base}images/GraphQL.webp`,
+  `${base}images/PostgreSQL.png`,
+  `${base}images/Prisma.png`,
+  `${base}images/Docker.webp`,
+  `${base}images/Firebase.png`,
+  `${base}images/Stripe.png`,
+  `${base}images/Tauri.png`,
+  `${base}images/Figma.png`,
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -213,7 +214,7 @@ const TechStack = () => {
           ))}
         </Physics>
         <Environment
-          files="/models/char_enviorment.hdr"
+          files={`${base}models/char_enviorment.hdr`}
           environmentIntensity={0.5}
           environmentRotation={[0, 4, 2]}
         />
